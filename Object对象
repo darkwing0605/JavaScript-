@@ -1,1 +1,4 @@
 1、创建Object对象
+obj = new Object ([value])
+obj：必选项。要赋值为Object对象的变量名。
+value：可选项。任意一种JScript基本数据类型（Number、Boolean或String）。如果value为一个对象，返回不作改动的该对象。如果value为null、undefined，或者没有给出，则产生没有内容的对象。
